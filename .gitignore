@@ -12,14 +12,20 @@
 pyvenv.cfg
 .venv
 pip-selfcheck.json
+
+
+### Custom added
+# for common files
+*.db
+*.py[cod]
+
+# for settings file
+taskAPI/settings.py
+
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
 *$py.class
-
-#for db file
-*.db
 
 # C extensions
 *.so
